@@ -1,3 +1,3 @@
 # VITech
-Test for studying
+Test for studying  
 task1.php - task about strings
