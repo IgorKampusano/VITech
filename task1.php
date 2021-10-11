@@ -16,9 +16,9 @@ $firstLetterArr = [];
         }
         $firstLetterArr = array_unique($firstLetterArr); // удаляем повторяющиеся элементы из массива
         sort($firstLetterArr); // сортируем массив по возрастанию
-        return $firstLetterArr;
+        return $firstLetterArr; // возвращаем массив букв
     }
 
-var_dump(firstLetter($sentence)); 
+var_dump(firstLetter($sentence)); // вызов функции
 
 ?>
